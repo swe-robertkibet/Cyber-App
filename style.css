@@ -86,6 +86,7 @@ header .container {
     font-size: 1.55rem;
     line-height: 1.2;
     font-weight: 700;
+    width: 50%;
 }
 
 /*----Links-----*/
