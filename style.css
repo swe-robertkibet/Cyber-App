@@ -393,7 +393,7 @@ header .container {
 
     .bottom-area .container .footer-links a {
         color: var(--lightOne);
-        margin-left: 1.8rem;
+        margin-left: .5rem;
         margin-top: 4rem;
         display: inline-block; /*To make sure the paddings and margins will be respected*/
         transition: 0.3s;
