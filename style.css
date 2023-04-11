@@ -6,12 +6,11 @@
 :root {
     --mainColor: rgb(255, 128, 0);
     --hoverColor: rgb(255, 165, 0);
-    --backgroundColor: #1e1e1e;
-    --darkOne: #f3f3f3;
-    --darkTwo: #fff;
-    --lightOne: #ccc;
-    --lightTwo: #e7e3e3; 
-    --secondaryColor: green;
+    --backgroundColor: #f1f8fc;
+    --darkOne: #312f3a;
+    --darkTwo: #45424b;
+    --lightOne: #919191;
+    --lightTwo: #aaa;
 }
 
 *, 
@@ -67,7 +66,7 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:  #222222;
+    background-color: #1e1e1e;
     padding: 10px;
     border-radius: 20px;
 }
@@ -89,7 +88,6 @@ header .container {
 }
 
 .logo h3 {
-    font-family: 'Lily Script One', cursive;
     color: var(--lightTwo);
     font-size: 1.55rem;
     line-height: 1.2;
@@ -199,9 +197,10 @@ header .container {
 
 .big-tittle {
     font-size: 1.4rem;
-    color: var(--lightTwo);
+    color: var(--darkOne);
     text-transform: capitalize;
     line-height: 1.4;
+    padding-left: 25px;
 }
 
 .big-title2 {
@@ -211,13 +210,14 @@ header .container {
     text-transform: capitalize;
     line-height: 1.4;
     padding-left: 70px;
+    padding-top: 40px;
     
 }
 
 .text {
-    color: var(--lightOne);
+    color: var(--darkTwo);
     font-size: 1.1rem;
-    margin: 1.9rem 0 2.5rem;
+    margin: .1rem 0 2.5rem;
     max-width: 600px;
     line-height: 2.3;
 }
@@ -232,7 +232,7 @@ header .container {
 }
 .right .services-content h3{
     font-size: 1.8rem;
-    color: var(--mainColor);
+    color: var(--darkOne);
     text-transform: capitalize;
     padding-bottom: 25px;
     margin-top: 20px;
@@ -250,7 +250,7 @@ header .container {
 
 
 .right .services-content a{
-    color: var(--lightTwo);
+    color: var(--darkTwo);
     display: inline-block; /*To make sure the paddings and margins will be respected*/
     transition: 0.3s;
 }
@@ -305,7 +305,7 @@ header .container {
         max-width: 450px;
         width: 100%;
         height: 100%;
-        background-color: var(--mainColor);
+        background-color: #1e1e1e;
         z-index: 95;
         display: flex;
         align-items: center;
@@ -364,9 +364,9 @@ header .container {
     }
 
     .big-tittle {
-        font-size: .66rem;
-        padding-bottom: 20px;
+        font-size: .71rem;
         padding-top: 20px;
+        padding-left: 5px;
     }
 
     .big-title2 {
@@ -374,7 +374,8 @@ header .container {
         color: var(--mainColor);
         text-transform: capitalize;
         line-height: 1.4;
-        padding-left: 5px;
+        padding-left: 15px;
+        padding-top: 30px;
     }
 
     .text {
@@ -408,13 +409,13 @@ header .container {
     
     
     .right .services-content a{
-        color: var(--lightOne);
+        color: var(--darkTwo);
         display: inline-block; /*To make sure the paddings and margins will be respected*/
         transition: 0.3s;
     }
 
     .right .services-content h3{
-        color: var(--lightTwo);
+        color: var(--darkOne);
         display: inline-block; /*To make sure the paddings and margins will be respected*/
         transition: 0.3s;
         font-size: 1.4rem;
