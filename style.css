@@ -82,7 +82,6 @@ header .container {
 }
 
 .logo h3 {
-    font-family: 'Gochi Hand', cursive;
     color: var(--secondaryColor);
     font-size: 1.55rem;
     line-height: 1.2;
