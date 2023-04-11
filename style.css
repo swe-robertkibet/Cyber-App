@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Just+Another+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Meie+Script&display=swap');
 :root {
     --mainColor: rgb(255, 128, 0);
     --hoverColor: rgb(255, 165, 0);
@@ -54,6 +56,8 @@ a {
     z-index: 10;
 }
 
+
+
 header {
     position: relative;
     z-index: 70;
@@ -63,6 +67,9 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color:  #222222;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 .overlay {
@@ -82,7 +89,8 @@ header .container {
 }
 
 .logo h3 {
-    color: var(--secondaryColor);
+    font-family: 'Lily Script One', cursive;
+    color: var(--lightTwo);
     font-size: 1.55rem;
     line-height: 1.2;
     font-weight: 700;
@@ -98,7 +106,7 @@ header .container {
 }
 
 .links a{
-    color: var(--secondaryColor);
+    color: var(--lightTwo);
     margin-left: 4.5rem;
     display: inline-block; /*To make sure the paddings and margins will be respected*/
     transition: 0.3s;
@@ -191,16 +199,19 @@ header .container {
 
 .big-tittle {
     font-size: 1.4rem;
-    color: var(--secondaryColor);
+    color: var(--lightTwo);
     text-transform: capitalize;
     line-height: 1.4;
 }
 
 .big-title2 {
-    font-size: 1.4rem;
+    font-family: 'Meie Script', cursive;
+    font-size: 1rem;
     color: var(--mainColor);
     text-transform: capitalize;
     line-height: 1.4;
+    padding-left: 70px;
+    
 }
 
 .text {
@@ -239,7 +250,7 @@ header .container {
 
 
 .right .services-content a{
-    color: var(--secondaryColor);
+    color: var(--lightTwo);
     display: inline-block; /*To make sure the paddings and margins will be respected*/
     transition: 0.3s;
 }
@@ -353,14 +364,18 @@ header .container {
     }
 
     .big-tittle {
-        font-size: 1rem;
+        font-size: .6rem;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        padding-left: 40px;
     }
 
     .big-title2 {
-        font-size: .8rem;
+        font-size: .6rem;
         color: var(--mainColor);
         text-transform: capitalize;
         line-height: 1.4;
+        padding-left: 40px;
     }
 
     .text {
@@ -393,9 +408,14 @@ header .container {
     }
     
     
-    .right .services-contentervices-list a{
-        color: var(--mainColor);
-        margin-left: 4.5rem;
+    .right .services-content a{
+        color: var(--lightOne);
+        display: inline-block; /*To make sure the paddings and margins will be respected*/
+        transition: 0.3s;
+    }
+
+    .right .services-content h3{
+        color: var(--lightTwo);
         display: inline-block; /*To make sure the paddings and margins will be respected*/
         transition: 0.3s;
     }
@@ -407,13 +427,20 @@ header .container {
 
     .bottom-area .container .footer-links a {
         color: var(--lightOne);
-        margin-left: .5rem;
+        margin-left: 3rem;
         margin-top: 4rem;
         display: inline-block; /*To make sure the paddings and margins will be respected*/
         transition: 0.3s;
+        font-size: .5rem;
     }
 
     .logo h3 {
-        font-size: 1.25rem;
+        font-size: 1rem;
+    }
+
+    .logo img {
+        width: 40px;
+        margin-right: 0.6rem;
+        margin-top: -0.6rem;
     }
 }
