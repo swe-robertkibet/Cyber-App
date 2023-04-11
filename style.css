@@ -9,6 +9,7 @@
     --darkTwo: #fff;
     --lightOne: #ccc;
     --lightTwo: #e7e3e3; 
+    --secondaryColor: green;
 }
 
 *, 
@@ -82,7 +83,7 @@ header .container {
 
 .logo h3 {
     font-family: 'Gochi Hand', cursive;
-    color: var(--darkTwo);
+    color: var(--secondaryColor);
     font-size: 1.55rem;
     line-height: 1.2;
     font-weight: 700;
@@ -98,7 +99,7 @@ header .container {
 }
 
 .links a{
-    color: var(--lightTwo);
+    color: var(--secondaryColor);
     margin-left: 4.5rem;
     display: inline-block; /*To make sure the paddings and margins will be respected*/
     transition: 0.3s;
@@ -191,7 +192,14 @@ header .container {
 
 .big-tittle {
     font-size: 1.4rem;
-    color: var(--darkOne);
+    color: var(--secondaryColor);
+    text-transform: capitalize;
+    line-height: 1.4;
+}
+
+.big-title2 {
+    font-size: 1.4rem;
+    color: var(--mainColor);
     text-transform: capitalize;
     line-height: 1.4;
 }
@@ -212,9 +220,9 @@ header .container {
 .right {
     font-size: 1.4rem;
 }
-.right .services-tittle  {
+.right .services-content h3{
     font-size: 1.8rem;
-    color: var(--darkOne);
+    color: var(--mainColor);
     text-transform: capitalize;
     padding-bottom: 25px;
     margin-top: 20px;
@@ -222,23 +230,22 @@ header .container {
 
 
 
-.right .services-list ul {
+.right .services-content ul {
     list-style: none;
 }
 
-.right .services-list li {
+.right .services-content li {
     padding-bottom: 25px;
 }
 
 
-.right .services-list a{
-    color: var(--mainColor);
-    margin-left: 4.5rem;
+.right .services-content a{
+    color: var(--secondaryColor);
     display: inline-block; /*To make sure the paddings and margins will be respected*/
     transition: 0.3s;
 }
 
-.right .services-list a:hover {
+.right .services-content a:hover {
     color: var(--hoverColor);
     transform: scale(1.05);
 }
@@ -350,6 +357,13 @@ header .container {
         font-size: 1rem;
     }
 
+    .big-title2 {
+        font-size: .8rem;
+        color: var(--mainColor);
+        text-transform: capitalize;
+        line-height: 1.4;
+    }
+
     .text {
         font-size: 0.9rem;
         transform: none;
@@ -371,23 +385,23 @@ header .container {
         margin-top: 20px;
     }
 
-    .right .services-list ul {
+    .right .services-content ul {
         list-style: none;
     }
     
-    .right .services-list li {
+    .right .services-content li {
         padding-bottom: 25px;
     }
     
     
-    .right .services-list a{
+    .right .services-contentervices-list a{
         color: var(--mainColor);
         margin-left: 4.5rem;
         display: inline-block; /*To make sure the paddings and margins will be respected*/
         transition: 0.3s;
     }
     
-    .right .services-list a:hover {
+    .right .services-content a:hover {
         color: var(--hoverColor);
         transform: scale(1.05);
     }
